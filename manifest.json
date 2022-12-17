@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Navigate Netflix Episode Buttons Skipper",
+  "version": "1.0",
+  "description": "Identifies the skip intro button & next episode button on Netflix and triggers click",
+  "permissions": ["tabs", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["https://www.netflix.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
