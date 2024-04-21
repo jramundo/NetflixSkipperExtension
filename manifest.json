@@ -7,7 +7,10 @@
   "background": {
     "service_worker": "background.js"
   },
-  "host_permissions": ["https://www.netflix.com/*"],
+  "host_permissions": [
+    "https://www.netflix.com/*",
+    "https://www.crunchyroll.com/*"
+  ],
   "action": {
     "default_popup": "popup.html"
   }
